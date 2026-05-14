@@ -1,0 +1,161 @@
+---
+title: "驾驶舱与flight log"
+---
+
+# 驾驶舱与flight log
+
+## 国泰航空a321neo
+
+时间范围：2026-02-23 11:09  
+发布人：Achthundert zehn  
+图片数：1
+
+![97A09BD0-97B1-42B7-A194-2EB8E1F479DF_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/97A09BD0-97B1-42B7-A194-2EB8E1F479DF_big.jpg)
+
+## 2025.10.1CA1357，PEK-SZX
+
+时间范围：2026-02-23 11:10  
+发布人：Achthundert zehn  
+图片数：1
+
+![CF1566F9-5F16-42CC-9F8A-D8D80D9C80E3_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/CF1566F9-5F16-42CC-9F8A-D8D80D9C80E3_big.jpg)
+
+## 2026.2.26 CX917
+
+时间范围：2026-02-26 10:46  
+发布人：可劲  
+图片数：2
+
+![59BD4D9E-F2CE-4E64-B7DD-C20A7D48FA73_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/59BD4D9E-F2CE-4E64-B7DD-C20A7D48FA73_big.jpg)
+
+![890A3E6F-A5C9-4F5F-877A-ED1CDA824443_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/890A3E6F-A5C9-4F5F-877A-ED1CDA824443_big.jpg)
+
+## 2026.3.2 JL221
+
+时间范围：2026-03-05 23:42  
+发布人：ReALize  
+图片数：1
+
+![V5bCQAzNzcxNDQ5OTZupKlpS7lhFQ!!.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/V5bCQAzNzcxNDQ5OTZupKlpS7lhFQ!!.jpg)
+
+## 2026.2.24 JL894
+
+时间范围：2026-03-05 23:43  
+发布人：ReALize  
+图片数：1
+
+![V5bCQAzNzcxNDQ5OTajpKlp3dF_GA!!.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/V5bCQAzNzcxNDQ5OTajpKlp3dF_GA!!.jpg)
+
+## 3.5，nh963
+
+时间范围：2026-03-05 23:55  
+发布人：Achthundert zehn  
+图片数：1
+
+![F07B7678-BE54-4E3B-A214-C3CC225B452A_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/F07B7678-BE54-4E3B-A214-C3CC225B452A_big.jpg)
+
+## 25.10.3 LX189 A340-300
+
+时间范围：2026-03-06 00:01  
+发布人：由木  
+图片数：2
+
+![47EFA13B-1E38-4251-A166-647ACB58AC11_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/47EFA13B-1E38-4251-A166-647ACB58AC11_big.jpg)
+
+![283947BB-A220-4690-A279-526B4454D1BB_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/283947BB-A220-4690-A279-526B4454D1BB_big.jpg)
+
+## 2026.2.25，UA132
+
+时间范围：2026-03-06 00:10  
+发布人：飞翔的企鹅  
+图片数：2
+
+![V5bCQAzNzcxNDQ5OTYGq6lpNO7bAg!!.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/V5bCQAzNzcxNDQ5OTYGq6lpNO7bAg!!.jpg)
+
+![V5bCQAzNzcxNDQ5OTYFq6lp7nXdAg!!.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/V5bCQAzNzcxNDQ5OTYFq6lp7nXdAg!!.jpg)
+
+## （无描述）
+
+时间范围：2026-03-11 06:27  
+发布人：白璐璐璐璐璐#uwu  
+图片数：1
+
+![0EB293C5-787E-4357-8B10-5665FDAF8BC3_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/0EB293C5-787E-4357-8B10-5665FDAF8BC3_big.jpg)
+
+## 2026.03.10 瑞士航空 LX189 A340-300 PVG-ZRH航后
+
+时间范围：2026-03-11 06:37  
+发布人：6岔路口[em]e327853[/em]矢泽兔熊  
+图片数：3
+
+![V5bCQAzNzcxNDQ5OTYmnbBpp01wEw!!.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/V5bCQAzNzcxNDQ5OTYmnbBpp01wEw!!.jpg)
+
+![V5bCQAzNzcxNDQ5OTYlnbBpV9UPEw!!.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/V5bCQAzNzcxNDQ5OTYlnbBpV9UPEw!!.jpg)
+
+![V5bCQAzNzcxNDQ5OTYknbBpJVO_Eg!!.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/V5bCQAzNzcxNDQ5OTYknbBpJVO_Eg!!.jpg)
+
+## 2026.2.26 cx542
+
+时间范围：2026-03-19 19:29  
+发布人：可劲  
+图片数：2
+
+![5A3BECC9-4264-47C0-A404-75F1AE5286FC_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/5A3BECC9-4264-47C0-A404-75F1AE5286FC_big.jpg)
+
+![7A1211FD-47D2-4B4B-899E-788CF2995DF1_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/7A1211FD-47D2-4B4B-899E-788CF2995DF1_big.jpg)
+
+## SYD拍QF8
+
+时间范围：2026-03-30 22:49  
+发布人：Yukisuto  
+图片数：9
+
+![FE479343-4EFD-4C18-AD95-62E406524947_hd.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/FE479343-4EFD-4C18-AD95-62E406524947_hd.jpg)
+
+![6226C8B2-D5CC-4F3D-B0B2-7343FF7B2539_hd.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/6226C8B2-D5CC-4F3D-B0B2-7343FF7B2539_hd.jpg)
+
+![F3F02F95-E72B-4866-8BD1-3F133DE07D63_hd.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/F3F02F95-E72B-4866-8BD1-3F133DE07D63_hd.jpg)
+
+![D455C94A-819E-490A-B3CD-38C662B1B59E_hd.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/D455C94A-819E-490A-B3CD-38C662B1B59E_hd.jpg)
+
+![24809C5C-81C2-45A0-BAA0-7A75BD836CE0_hd.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/24809C5C-81C2-45A0-BAA0-7A75BD836CE0_hd.jpg)
+
+![DDA003AA-48F2-4EC2-80A2-B562C8EFB033_hd.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/DDA003AA-48F2-4EC2-80A2-B562C8EFB033_hd.jpg)
+
+![5F3CD36D-F4ED-4FBF-AE4F-FC16DF74F09E_hd.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/5F3CD36D-F4ED-4FBF-AE4F-FC16DF74F09E_hd.jpg)
+
+![CE12C8E7-FEC9-4A2F-A9FE-1D740A96CEF7_hd.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/CE12C8E7-FEC9-4A2F-A9FE-1D740A96CEF7_hd.jpg)
+
+![332A0637-13EA-4840-BA11-16711C0F8C92_hd.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/332A0637-13EA-4840-BA11-16711C0F8C92_hd.jpg)
+
+## 鶴丸懂得来
+
+时间范围：2026-03-30 22:55  
+发布人：Yukisuto  
+图片数：1
+
+![D09E72DA-DD42-41D2-AD0B-11795533C851_hd.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/D09E72DA-DD42-41D2-AD0B-11795533C851_hd.jpg)
+
+## 4.29 MU6673 绝美云海雪山
+
+时间范围：2026-04-29 20:12  
+发布人：HO死吗  
+图片数：9
+
+![590E455B-13C8-4984-8A77-C9A26B987E87_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/590E455B-13C8-4984-8A77-C9A26B987E87_big.jpg)
+
+![0BA5DCFA-3D3A-48B7-A43B-27FD292E02D3_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/0BA5DCFA-3D3A-48B7-A43B-27FD292E02D3_big.jpg)
+
+![ECA9C630-A903-4450-A296-D03DA236F2D4_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/ECA9C630-A903-4450-A296-D03DA236F2D4_big.jpg)
+
+![DBF89C03-66D5-4694-9E9C-5FC2C97CC887_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/DBF89C03-66D5-4694-9E9C-5FC2C97CC887_big.jpg)
+
+![A13A0B46-448C-41C2-BFBB-B611331D5A12_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/A13A0B46-448C-41C2-BFBB-B611331D5A12_big.jpg)
+
+![C40743FC-86C3-40B0-90BB-BEEC0D911E6A_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/C40743FC-86C3-40B0-90BB-BEEC0D911E6A_big.jpg)
+
+![7B625289-CE6F-4AC7-9E23-82CDCB7AF908_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/7B625289-CE6F-4AC7-9E23-82CDCB7AF908_big.jpg)
+
+![D9718418-EEDA-4028-A9A7-0A41338B8594_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/D9718418-EEDA-4028-A9A7-0A41338B8594_big.jpg)
+
+![48D29D67-A4D4-4D01-8389-991F75EE398A_big.jpg](/images/u9a7eu9a76u8231u4e0eflight-log/48D29D67-A4D4-4D01-8389-991F75EE398A_big.jpg)

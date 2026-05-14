@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ album_name }} - {{ site_title }}</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f6a63'/%3E%3Ccircle cx='22' cy='22' r='10' fill='%23fffaf1'/%3E%3Cpath d='M18 40h28v6H18z' fill='%23bf6e42'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header class="hero hero-album">
+    <div class="hero-shell">
+      <div class="hero-copy">
+        <a class="back-link" href="../index.html">← 返回首页</a>
+        <p class="eyebrow">ALBUM ARCHIVE</p>
+        <h1>{{ album_name }}</h1>
+        <p class="hero-lead">
+          按相同描述归并为连续板块，方便按主题回看，而不是在一整页图片里来回找。
+        </p>
+        <div class="hero-stats">
+          <div class="stat-pill">
+            <strong>{{ photos|length }}</strong>
+            <span>图片</span>
+          </div>
+          <div class="stat-pill">
+            <strong>{{ photo_groups|length }}</strong>
+            <span>板块</span>
+          </div>
+          <div class="stat-pill stat-pill-wide">
+            <strong>{{ latest_text }}</strong>
+            <span>最近更新</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="album-hero-card">
+        {% if album_cover %}
+        <img src="../{{ album_cover }}" alt="{{ album_name }} cover" loading="lazy" />
+        {% else %}
+        <div class="album-placeholder">暂无封面</div>
+        {% endif %}
+        <div class="album-hero-meta">
+          <span>更新时间</span>
+          <strong>{{ generated_at }}</strong>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container album-layout">
+    <section class="album-main">
+      <div class="toolbar album-toolbar">
+        <input
+          id="albumSearchInput"
+          class="search-input"
+          type="search"
+          placeholder="搜索描述、发布人、文件名、评论"
+        />
+        <span id="albumSearchResult" class="search-result"></span>
+      </div>
+      {% if not photo_groups %}
+      <p class="empty-state">该分类暂时没有可展示图片。</p>
+      {% endif %}
+      {% for group in photo_groups %}
+      <section
+        class="desc-group"
+        id="group-{{ loop.index }}"
+        data-search="{{ group.description }} {{ group.author_text }} {{ group.time_text }}"
+      >
+        <div class="desc-header">
+          <div class="desc-copy">
+            <p class="desc-kicker">Board {{ "%02d"|format(loop.index) }}</p>
+            <h3>{{ group.description }}</h3>
+            <p>时间：{{ group.time_text }} · 发布人：{{ group.author_text }}</p>
+          </div>
+          <div class="desc-count">{{ group.photo_count }} 张</div>
+        </div>
+        <div class="masonry">
+          {% for item in group.photos %}
+          <article
+            class="photo-card"
+            data-search="{{ item.file_name }} {{ item.author }} {{ item.comment_text }} {{ format_dt(item.publish_time) }}"
+          >
+            <div class="photo-media">
+              {% if item.site_image_rel %}
+              <img src="../{{ item.site_image_rel }}" alt="{{ item.content or album_name }}" loading="lazy" />
+              {% else %}
+              <div class="photo-missing">图片文件缺失</div>
+              {% endif %}
+            </div>
+            {% if item.comment_count or item.comment_text %}
+            <div class="photo-meta">
+              {% if item.comment_count %}
+              <p class="photo-note">评论数：{{ item.comment_count }}</p>
+              {% endif %}
+              {% if item.comment_text %}
+              <p class="photo-note">{{ item.comment_text }}</p>
+              {% endif %}
+            </div>
+            {% endif %}
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+      {% endfor %}
+    </section>
+
+    <aside class="side-panel" id="groupPanel" aria-hidden="false">
+      <div class="side-panel-header">
+        <div>
+          <strong>板块目录</strong>
+          <p>快速跳到当前分类的任一主题</p>
+        </div>
+        <button type="button" class="side-panel-close" data-panel-close>关闭</button>
+      </div>
+      <div class="side-panel-body">
+        {% if photo_groups %}
+        {% for group in photo_groups %}
+        <a class="side-panel-item" data-group-link href="#group-{{ loop.index }}">
+          <span class="side-panel-title">{{ group.description }}</span>
+          <span class="side-panel-sub">{{ group.photo_count }} 张 · {{ group.time_text }}</span>
+        </a>
+        {% endfor %}
+        {% else %}
+        <p class="side-panel-empty">暂无板块</p>
+        {% endif %}
+      </div>
+    </aside>
+  </main>
+
+  <button type="button" class="side-panel-toggle" data-panel-toggle aria-controls="groupPanel" aria-expanded="false">
+    目录
+  </button>
+
+  <script src="../assets/js/site.js"></script>
+</body>
+</html>

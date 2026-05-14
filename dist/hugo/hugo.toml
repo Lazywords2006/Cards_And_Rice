@@ -1,0 +1,8 @@
+baseURL = "https://example.com/"
+languageCode = "zh-cn"
+title = "QQ群相册"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

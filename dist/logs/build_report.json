@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-14T21:01:02.395247",
+  "csv_files": [
+    "/Users/lazywords/Code/高卡紫相关/QQ群相册/全服务航司经济舱/全服务航司经济舱_发布内容表.csv",
+    "/Users/lazywords/Code/高卡紫相关/QQ群相册/商务舱/商务舱_发布内容表.csv",
+    "/Users/lazywords/Code/高卡紫相关/QQ群相册/头等舱/头等舱_发布内容表.csv",
+    "/Users/lazywords/Code/高卡紫相关/QQ群相册/带娃出行/带娃出行_发布内容表.csv",
+    "/Users/lazywords/Code/高卡紫相关/QQ群相册/廉航经济舱/廉航经济舱_发布内容表.csv",
+    "/Users/lazywords/Code/高卡紫相关/QQ群相册/机场休息室/机场休息室_发布内容表.csv",
+    "/Users/lazywords/Code/高卡紫相关/QQ群相册/超级经济舱/超级经济舱_发布内容表.csv",
+    "/Users/lazywords/Code/高卡紫相关/QQ群相册/酒店房间（展示要饭成果）/酒店房间（展示要饭成果）_发布内容表.csv",
+    "/Users/lazywords/Code/高卡紫相关/QQ群相册/酒店酒廊，早餐/酒店酒廊，早餐_发布内容表.csv",
+    "/Users/lazywords/Code/高卡紫相关/QQ群相册/铁路出行/铁路出行_发布内容表.csv",
+    "/Users/lazywords/Code/高卡紫相关/QQ群相册/驾驶舱与flight log/驾驶舱与flight log_发布内容表.csv",
+    "/Users/lazywords/Code/高卡紫相关/QQ群相册/高铁休息室/高铁休息室_发布内容表.csv"
+  ],
+  "total_records": 2277,
+  "missing_images": 0,
+  "warning_count": 0,
+  "albums": {
+    "全服务航司经济舱": 307,
+    "商务舱": 399,
+    "头等舱": 81,
+    "带娃出行": 157,
+    "廉航经济舱": 67,
+    "机场休息室": 722,
+    "超级经济舱": 71,
+    "酒店房间（展示要饭成果）": 227,
+    "酒店酒廊，早餐": 88,
+    "铁路出行": 121,
+    "驾驶舱与flight log": 36,
+    "高铁休息室": 1
+  }
+}

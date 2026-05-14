@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ site_title }}</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f6a63'/%3E%3Ccircle cx='22' cy='22' r='10' fill='%23fffaf1'/%3E%3Cpath d='M18 40h28v6H18z' fill='%23bf6e42'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="hero hero-home">
+    <div class="hero-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">TRAVEL ARCHIVE</p>
+        <h1>现地要饭紫</h1>
+        <p class="hero-lead">
+          把散落在各个分类里的飞行、酒店、休息室和铁路记录整理成一套可搜索、可回看的旅行档案。
+        </p>
+
+        <div class="hero-stats">
+          <div class="stat-pill">
+            <strong>{{ albums|length }}</strong>
+            <span>分类</span>
+          </div>
+          <div class="stat-pill">
+            <strong>{{ timeline|length }}</strong>
+            <span>图片</span>
+          </div>
+          <div class="stat-pill stat-pill-wide">
+            <strong>{{ generated_at }}</strong>
+            <span>更新时间</span>
+          </div>
+        </div>
+
+        <div class="toolbar toolbar-hero">
+          <input
+            id="siteSearchInput"
+            class="search-input"
+            type="search"
+            placeholder="搜索分类、描述、发布人"
+          />
+          <span id="siteSearchResult" class="search-result"></span>
+        </div>
+
+        <div class="quick-links">
+          {% for album in albums %}
+          <a class="quick-link" href="#album-{{ album.slug }}">{{ album.name }}</a>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="showcase-grid">
+        {% for album in featured_albums %}
+        <a class="showcase-card" href="albums/{{ album.slug }}.html">
+          {% if album.cover %}
+          <img src="{{ album.cover }}" alt="{{ album.name }} cover" loading="lazy" />
+          {% else %}
+          <div class="album-placeholder">暂无封面</div>
+          {% endif %}
+          <div class="showcase-overlay">
+            <span class="showcase-label">{{ album.name }}</span>
+            <strong>{{ album.count }} 张</strong>
+            <span>{{ album.latest_text }}</span>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Catalog</p>
+          <h2>相册目录</h2>
+        </div>
+        <p class="section-note">按当前根目录分类展示，适合快速跳到你想看的板块。</p>
+      </div>
+      <div class="album-grid">
+        {% for album in albums %}
+        <a
+          class="album-card"
+          id="album-{{ album.slug }}"
+          href="albums/{{ album.slug }}.html"
+          data-search="{{ album.name }} {{ album.latest_text }}"
+        >
+          <div class="album-card-media">
+            {% if album.cover %}
+            <img src="{{ album.cover }}" alt="{{ album.name }} cover" loading="lazy" />
+            {% else %}
+            <div class="album-placeholder">暂无封面</div>
+            {% endif %}
+          </div>
+          <div class="album-meta">
+            <div class="album-meta-top">
+              <span class="album-order">{{ "%02d"|format(loop.index) }}</span>
+              <span class="album-count">{{ album.count }} 张</span>
+            </div>
+            <h3>{{ album.name }}</h3>
+            <p>最新更新：{{ album.latest_text }}</p>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Latest</p>
+          <h2>最近更新</h2>
+        </div>
+        <p class="section-note">首页按“同一人 + 同一段内容”合并展示最近 {{ recent_posts|length }} 条更新，避免重复刷屏。</p>
+      </div>
+      {% if not recent_posts %}
+      <p>当前没有可展示记录。</p>
+      {% endif %}
+      <ol class="timeline">
+        {% for post in recent_posts %}
+        <li data-search="{{ post.album_name }} {{ post.author }} {{ post.content }} {{ post.publish_time_text }}">
+          <article class="post-card" data-lightbox-images='{{ post.gallery_json|e }}' data-lightbox-caption="{{ post.content }}">
+            <div class="post-grid" data-count="{{ post.preview_images|length }}">
+              {% for image in post.preview_images %}
+              <button
+                type="button"
+                class="post-thumb"
+                data-lightbox-trigger
+                data-start-index="{{ loop.index0 }}"
+                aria-label="查看第 {{ loop.index }} 张图片"
+              >
+                <img src="{{ image.src }}" alt="{{ image.alt }}" loading="lazy" />
+                {% if loop.last and post.hidden_photo_count > 0 %}
+                <span class="post-thumb-more">+{{ post.hidden_photo_count }}</span>
+                {% endif %}
+              </button>
+              {% endfor %}
+            </div>
+            <div class="timeline-copy">
+              <div class="timeline-meta">
+                <span class="timeline-badge">{{ post.album_name }}</span>
+                <time>{{ post.publish_time_text }}</time>
+                <span>{{ post.author or '未知发布人' }}</span>
+                <span>{{ post.photo_count }} 张</span>
+              </div>
+              <p class="timeline-title">{{ post.content or '（无描述）' }}</p>
+            </div>
+          </article>
+        </li>
+        {% endfor %}
+      </ol>
+    </section>
+  </main>
+
+  <div class="lightbox" id="siteLightbox" hidden aria-hidden="true">
+    <button type="button" class="lightbox-close" data-lightbox-close aria-label="关闭预览">关闭</button>
+    <button type="button" class="lightbox-nav lightbox-prev" data-lightbox-prev aria-label="上一张">‹</button>
+    <figure class="lightbox-figure">
+      <img id="lightboxImage" src="" alt="" />
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button type="button" class="lightbox-nav lightbox-next" data-lightbox-next aria-label="下一张">›</button>
+  </div>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
